@@ -11,6 +11,9 @@ return {
   "AstroNvim/astroui",
   dependencies = {
     "catppuccin/nvim",
+    opts = {
+      transparent_background = true,
+    },
   },
   ---@type AstroUIOpts
   opts = {
