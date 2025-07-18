@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+if false then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Mason
 
@@ -22,6 +22,11 @@ return {
 
         -- install any other package
         "tree-sitter-cli",
+
+        "raku-navigator",
+        "json-lsp",
+        "jsonld-lsp",
+        "mmdc",
       },
     },
   },
