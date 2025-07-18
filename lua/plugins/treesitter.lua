@@ -23,6 +23,10 @@ return {
       "typst",
       "vue",
       "yaml",
+      "gitcommit",
+      "gitignore",
+      "make",
+      "cmake",
     },
   },
 }
