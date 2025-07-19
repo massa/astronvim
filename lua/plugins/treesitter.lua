@@ -25,6 +25,7 @@ return {
       "yaml",
       "gitcommit",
       "gitignore",
+      "regex",
       "make",
       "cmake",
     },
