@@ -45,6 +45,12 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      raku_navigator = {
+        cmd = { "raku_navigator", "--stdio" },
+        settings = {
+          raku = { includeLib = true },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {
