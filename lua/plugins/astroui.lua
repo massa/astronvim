@@ -4,21 +4,31 @@
 -- Configuration documentation can be found with `:h astroui`
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
 --       as this provides autocomplete and documentation while editing
-vim.g.catppuccin_flavour = "mocha"
+-- vim.g.catppuccin_flavour = "mocha"
 
 ---@type LazySpec
 return {
   "AstroNvim/astroui",
+  -- dependencies = {
+  --   "catppuccin/nvim",
+  --   opts = {
+  --     transparent_background = true,
+  --   },
+  -- },
   dependencies = {
-    "catppuccin/nvim",
-    opts = {
-      transparent_background = true,
+    {
+      "eldritch-theme/eldritch.nvim",
+      lazy = false,
+      priority = 1000,
+      opts = {
+        transparent = true,
+      },
     },
   },
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "catppuccin",
+    colorscheme = "eldritch",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes
