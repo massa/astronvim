@@ -25,7 +25,7 @@ return {
     require("codecompanion").setup {
       strategies = {
         chat = {
-          adapter = "gemini",
+          adapter = "github",
         },
         inline = {
           adapter = "gemini",
