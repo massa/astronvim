@@ -38,7 +38,7 @@ return {
     )
     -- Be caution: it may be slow to open large files, because it scan the whole buffer
     vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost" }, {
-      group = vim.api.nvim_create_augroup("TWTask", { desc = "TaskWarrior Task", clear = true }),
+      group = vim.api.nvim_create_augroup("TWTask", { clear = true }),
       pattern = "*.md,*.markdown", -- Pattern to match Markdown files
       callback = function() vim.cmd "TWSyncTasks" end,
     })
