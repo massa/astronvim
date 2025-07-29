@@ -27,6 +27,7 @@ return {
         "json-lsp",
         "jsonld-lsp",
         "mmdc",
+        "fish-lsp",
       },
     },
   },
