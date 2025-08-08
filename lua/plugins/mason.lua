@@ -31,6 +31,7 @@ return {
         "json-lsp",
         "jsonld-lsp",
         "mmdc",
+        "htmx-lsp",
         "fish-lsp",
       },
     },
