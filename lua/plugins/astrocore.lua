@@ -46,6 +46,7 @@ return {
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
         guifont = "VictorMono Nerd Font Mono:h10",
+        messagesopt = "wait:1000,history:500",
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
