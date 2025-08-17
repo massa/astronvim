@@ -48,6 +48,9 @@ return {
         guifont = "VictorMono Nerd Font Mono:h10",
         messagesopt = "wait:1000,history:500",
       },
+      o = {
+        winborder = "rounded",
+      },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
